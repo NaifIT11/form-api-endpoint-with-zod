@@ -2,7 +2,6 @@
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -15,7 +14,7 @@ import { toast } from "@/hooks/use-toast";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
-import { Loader, Loader2, LoaderCircle } from "lucide-react";
+import { LoaderCircle } from "lucide-react";
 
 export default function FormComp() {
   const FormSchema = z.object({
