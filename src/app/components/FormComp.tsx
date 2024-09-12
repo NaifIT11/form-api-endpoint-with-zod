@@ -115,7 +115,7 @@ export default function FormComp() {
               </FormItem>
             )}
           />
-          <Button type="submit" variant="default" className="flex gap-2">
+          <Button type="submit" variant="default" className="flex gap-2" disabled={loading}>
             <span>submit</span>
             {loading && <LoaderCircle className="w-4 h-4 animate-spin" />}
           </Button>
